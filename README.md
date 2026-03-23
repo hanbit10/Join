@@ -1,60 +1,69 @@
-JOIN – Agile Kanban Board App
-JOIN ist eine professionelle Task-Management-Anwendung, die nach agilen Prinzipien entwickelt wurde. Sie ermöglicht Teams eine effiziente Zusammenarbeit durch ein interaktives Kanban-Board, Aufgabensteuerung und Kontaktverwaltung.
+# JOIN – Agile Kanban Board App
 
-Live Demo ansehen | Zum Repository
+**JOIN** is a professional task management application designed to streamline team collaboration through an interactive Kanban-style interface. This project was developed as part of a collaborative team effort, focusing on clean code, agile methodologies, and modern JavaScript.
 
-🚀 Kernfunktionen (Core Features)
-Interaktives Kanban-Board
-Drag-and-Drop: Intuitive Verschiebung von Aufgaben zwischen den Status-Spalten (To Do, In Progress, Awaiting Feedback, Done).
+---
 
-Echtzeit-Suche: Filtern von Aufgaben nach Titeln oder Beschreibungen in Sekundenbruchteilen.
+## 🚀 Core Features
 
-Progress-Tracking: Visualisierung von Subtasks und Fortschrittsbalken direkt auf den Task-Karten.
+### **Interactive Kanban Board**
+* **Dynamic Drag-and-Drop:** Move tasks seamlessly between status columns (*To Do, In Progress, Awaiting Feedback, Done*).
+* **Real-time Search:** Filter tasks instantly by title or description.
+* **Progress Tracking:** Visual representation of subtasks and completion status on every task card.
 
-Task Management
-Full CRUD: Erstellen, Bearbeiten und Löschen von Aufgaben.
+### **Comprehensive Task Management**
+* **Full CRUD:** Create, read, update, and delete tasks with ease.
+* **Prioritization:** Assign tasks with specific priority levels (Urgent, Medium, Low) and due dates.
+* **Subtask System:** Break down large tasks into smaller, manageable items with individual progress tracking.
 
-Personalisierung: Zuweisung von Prioritäten (Urgent, Medium, Low), Fälligkeitsdaten und Teammitgliedern.
+### **User & Contact Management**
+* **Authentication:** Secure user registration, login, and a dedicated "Guest Login" for quick access.
+* **Contact Book:** Centralized management of team members with unique color-coded avatars.
 
-Subtasks: Aufbrechen komplexer Aufgaben in prüfbare Checklisten.
+---
 
-Benutzer- & Kontaktverwaltung
-Authentifizierung: Sicherer Login, Registrierung und Gast-Login-Funktion.
+## 🛠️ Tech Stack
 
-Adressbuch: Zentrales Management von Kontakten mit individueller Farbkodierung.
+* **Frontend:** JavaScript (ES6+), HTML5, CSS3 (SCSS)
+* **Backend & Database:** Firebase Realtime Database
+* **Authentication:** Firebase Auth
+* **Version Control:** Git & GitHub
 
-🛠️ Tech Stack
-Frontend: JavaScript (ES6+), HTML5, CSS3 (SCSS)
+---
 
-Backend/Database: Firebase Realtime Database
+## 👨‍💻 My Technical Contribution
 
-Authentication: Firebase Auth
+As a lead developer in this team project, I was primarily responsible for the **Core Kanban Engine**:
 
-Version Control: Git & GitHub
+* **Drag-and-Drop Logic:** Engineered the movement of DOM elements while simultaneously updating database indices to ensure persistent state.
+* **Real-time Synchronization:** Integrated Firebase listeners to ensure the board stays updated across all user sessions.
+* **Search & Filter Algorithm:** Developed a high-performance filtering system for the task board.
+* **Responsive UI:** Optimized the board's layout for various screen sizes to maintain usability on tablets and desktops.
 
-👨‍💻 Mein technischer Beitrag
-In diesem Team-Projekt war ich maßgeblich für die Kernlogik des Kanban-Boards verantwortlich:
+---
 
-Drag-and-Drop Engine: Implementierung der Logik zur dynamischen Verschiebung von DOM-Elementen und gleichzeitiger Aktualisierung der Datenbank-Indizes.
+## 👥 Development Team
 
-State Management: Sicherstellung, dass der App-Status bei jeder Änderung (z. B. Verschieben einer Karte) konsistent bleibt.
+* **Hanbit Chang:** Core Logic, Kanban Board & Drag-and-Drop Implementation.
+* **Robin Gerth:** User Authentication & Login/Registration Flow.
+* **Elias Schäfer:** Contact Management & UI Component Architecture.
 
-Responsive Design: Optimierung des Boards für Desktop- und Tablet-Ansichten.
+---
 
-👥 Das Team
-Hanbit Chang: Lead Developer (Kanban Board, Drag-and-Drop Logic, Task Filtering)
+## ⚙️ Installation & Usage
 
-Robin Gerth: Frontend Developer (User Authentication, Login/Sign-up Flow)
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/join.git](https://github.com/YOUR_USERNAME/join.git)
+    ```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd join
+    ```
+3.  **Run the application:**
+    Open `index.html` in your preferred browser or use the "Live Server" extension in VS Code.
 
-Elias Schäfer: Frontend Developer (Contact Management, UI Components)
+---
 
-⚙️ Installation
-Repository klonen:
-
-Bash
-git clone https://github.com/DeinNutzername/join.git
-In das Verzeichnis wechseln:
-
-Bash
-cd join
-Die index.html im Browser öffnen (oder via Live Server in VS Code starten).
+## 📄 License
+This project was created as part of the Developer Akademie software engineering program.
